@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CV - Thomas José Manica</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#sobre-mim" class="nav-link" data-section="sobre-mim"
+          >Sobre mim</a
+        >
+        <a href="#formacao" class="nav-link" data-section="formacao"
+          >Formação</a
+        >
+        <a href="#portifolio" class="nav-link" data-section="portifolio"
+          >Portfólio</a
+        >
+        <a href="#contato" class="nav-link" data-section="contato">Contato</a>
+      </nav>
+    </header>
+    <main>
+      <section id="sobre-mim">
+        <h1>Sobre mim</h1>
+        <p>
+          Meu nome é Thomas José Manica e sou desenvolvedor de software na
+          Tramontina Central. Tenho uma paixão por tecnologia e adoro criar
+          soluções inovadoras que facilitam a vida das pessoas. No meu trabalho,
+          uso ASP.NET Core e ReactJS para desenvolver aplicações web robustas e
+          eficientes. Estou sempre buscando aprender novas tecnologias e
+          aprimorar minhas habilidades para entregar o melhor resultado possível
+          em meus projetos.
+        </p>
+        <h1>Hobbies e Interesses</h1>
+        <p>
+          Fora do ambiente de trabalho, gosto de me dedicar a alguns hobbies que
+          me ajudam a relaxar e me manter criativo. Sou um entusiasta de jogos,
+          tanto digitais quanto de tabuleiro. Acredito que os jogos, além de
+          serem uma ótima forma de entretenimento, desenvolvem habilidades
+          importantes como pensamento estratégico e trabalho em equipe. Também
+          gosto de explorar novas tecnologias e tendências no mundo da
+          programação, participando de comunidades online e eventos de
+          tecnologia. Além disso, gosto muito de ir para academia ou fazer
+          caminhadas. Meu objetivo é continuar crescendo profissionalmente,
+          contribuindo para projetos desafiadores e inovadores, e sempre
+          buscando um equilíbrio saudável entre minha carreira e meus interesses
+          pessoais.
+        </p>
+      </section>
+      <section id="formacao">
+        <h1>Formação</h1>
+        <p>
+          <strong>Engenharia de Software</strong><br />UNINTER<br />
+          Atualmente, estou cursando Engenharia de Software na UNINTER, onde
+          estou aprofundando meus conhecimentos em desenvolvimento de software,
+          metodologias ágeis e engenharia de sistemas.
+        </p>
+        <h1>Cursos Complementares</h1>
+        <p>
+          <strong>Inglês</strong><br />Wizard<br />Concluí o curso de inglês na
+          Wizard, o que me proporcionou uma fluência que é fundamental para
+          acompanhar a literatura técnica e comunicar-me eficientemente em
+          ambientes de trabalho internacionais.<br /><br /><string
+            ><strong>UI Design</strong></string
+          ><br />Origamid<br />Participei de um curso de UI Design, onde aprendi
+          sobre princípios de design, usabilidade e ferramentas de design de
+          interface. Esse conhecimento me permite criar interfaces de usuário
+          mais intuitivas e agradáveis.<br /><br />
+          <strong>SQL</strong><br />Udemy<br />Concluí um curso de SQL, que me
+          forneceu uma base sólida em manipulação e gerenciamento de bancos de
+          dados relacionais, essencial para o desenvolvimento de aplicações web
+          e software corporativo. <br /><br /><strong>ASP.NET Core</strong
+          ><br />Udemy<br />Realizei um curso específico de ASP.NET Core,
+          aprofundando minhas habilidades no desenvolvimento de aplicações web
+          utilizando essa poderosa framework da Microsoft.<br /><br /><strong
+            >Orientação a Objetos</strong
+          ><br />Udemy<br />Fiz um curso sobre Orientação a Objetos, onde
+          estudei os princípios fundamentais desse paradigma de programação, que
+          é a base para muitos dos sistemas que desenvolvo atualmente.
+        </p>
+      </section>
+      <section id="portifolio" class="portfolio-container">
+        <h1>Portfólio</h1>
+        <div class="portfolio-item">
+          <h3>Loja Mobile (Cópia da Nike)</h3>
+          <a
+            href="https://www.figma.com/design/yVfZTIRGStfhsrPRckt4hN/uninter-app-loja?m=auto&t=63cmOtAt2KhDIMXT-6"
+            target="_blank"
+            >Visualizar Projeto</a
+          >
+        </div>
+        <div class="portfolio-item">
+          <h3>Currículo no Figma</h3>
+          <a
+            href="https://www.figma.com/design/AJbOTy8Agz8HKn7klHyJ1I/cv-origamid?m=auto&t=63cmOtAt2KhDIMXT-6"
+            target="_blank"
+            >Visualizar Currículo</a
+          >
+        </div>
+        <div class="portfolio-item">
+          <h3>Site para Venda de Softwares</h3>
+          <a href="https://aetsoftwares.com.br/" target="_blank"
+            >Visitar Site</a
+          >
+        </div>
+      </section>
+      <section id="contato">
+        <h1>Contato</h1>
+        <div class="form-container">
+          <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+          </form>
+          <p id="responseMessage"></p>
+        </div>
+      </section>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>
